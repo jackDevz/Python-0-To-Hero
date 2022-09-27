@@ -7,8 +7,7 @@ from tkinter import *
 from tkinter.ttk import *
 
 
-#operating_system = platform.system()
-operating_system = "Windows"
+operating_system = platform.system()
 print(operating_system)
 
 
@@ -16,15 +15,6 @@ if operating_system == "Windows":
 	print("CWD = C:\\Users\\")
 	operator = "\\"
 	#cwd = "C:\\Users\\"
-if operating_system == "Linux":
-	print("CWD = /home")
-	#cwd = "/home"
-	operator = "/"
-	
-if operating_system == "Darwin":
-	print("CWD = /Users/")
-	#cwd = "/Users/"
-	operator = "/"
 
 
 cwd = os.getcwd()
