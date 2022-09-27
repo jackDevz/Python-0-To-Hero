@@ -1,0 +1,29 @@
+0.) User is strolling through car park/office and finds a pink USB stick on the floor... they proceed to pick it up.
+
+1.) USB Stick with what appears to be a folder named "CV", but is actually a shortcut to a batch file within a hidden folder on the USB with 4 files.
+
+Files: 
+- Encryptor.exe
+- TaskCreation
+- TaskRemoval
+- Task
+
+2.) User clicks on the "CV Folder" which automatically runs the "TaskCreation.bat" file
+
+3.) TaskCreation.bat creates a new folder in the user's documents called C:\Users\%USERNAME%\Documents\Windows_Update_64-bit  
+
+4.) TaskCreation.bat then copies encryptor.exe, TaskRemoval.bat and Task.bat into the documents folder.
+
+5.) TaskCreation.bat creates a task within the task scheduler that triggers on the 30th of the month, which executes the Task.bat file from the documents folder.
+
+6.) Whilst waiting for 30th of the month to come around, you will need to plant as many of the rogue USBs around the office that will all repeat steps 1-5
+
+7.) 30th of the month comes around, which triggers the task.
+
+8.) Task.bat runs the encryptor which will recursively search the user's C drive and encrypt everything... ZIP folders, images, .docx, .txt...
+
+9.) Encryptor.exe throws up a white window with text that explains you have fallen victim to a ransomware attack, provides a protonmail email address and wallet ID for you to send $XMR and transaction ID to.
+
+9.) Task.bat then runs the TaskRemoval.bat which deletes the task so it stops it from running another time.
+
+10.) When you receive the transaction ID through to your protonmail account, you can send them the Decryptor.exe which will need to be run on all affected machines
